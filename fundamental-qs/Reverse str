@@ -1,0 +1,31 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <algorithm>
+
+
+using namespace std;
+
+// Reverse a String
+
+void reverseStr(string s) {
+	int start = 0;
+	int end = s.length()-1;
+	while(start < end) {
+		swap(s[start],s[end]);
+		start++;
+		end--;
+	}
+	cout<<s;
+}
+
+int main()
+{
+	string s;
+	cout<< "enter a String : ";
+	// getline(cin,s);
+	cin>>s;
+	reverseStr(s);
+
+	return 0;
+}

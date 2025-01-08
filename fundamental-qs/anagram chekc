@@ -1,0 +1,26 @@
+#include <iostream>
+#include <algorithm>
+#include <string>
+
+// Anagram check 
+
+bool anagramCheck(string s1,string s2){
+    
+    sort(s1.begin(),s1.end());
+    sort(s2.begin(),s2.end());
+    
+    if(s1.length() != s2.length()){
+        return false;
+    }
+    
+    return s1 == s2;
+}
+
+int main(){
+    string s1,s2;
+    cin>>s1>>s2;
+    
+    cout<<anagramCheck(s1,s2);
+    
+    return 0;
+}

@@ -1,0 +1,39 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <algorithm>
+
+
+using namespace std;
+
+// Palindrom check
+
+bool palindromCheck(int i) {
+	string s = to_string(i);
+	int end = s.length()-1;
+	int start = 0;
+    
+	while(start<end) {
+		if(s[start] != s[end]) {
+			return false;
+		}
+		start++;
+		end--;
+	}
+	return true;
+
+}
+
+int main()
+{
+	int i;
+	cin>>i;
+	cout<<palindromCheck(i);
+
+
+
+
+
+
+	return 0;
+}

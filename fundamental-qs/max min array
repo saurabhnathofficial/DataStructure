@@ -1,0 +1,43 @@
+#include <iostream>
+#include <climits>
+#include <algorithm>
+
+
+// Maximum num in Arr
+int maxArr(vector<int>&arr) {
+	// auto max = max_element(arr.begin(),arr.end());  // using STL
+	// return *max;
+	int max = INT_MIN;
+	for(int i = 0; i < arr.size(); i++) {
+		if(arr[i]>max) {
+			max = arr[i];
+		}
+	}
+	return max;
+}
+
+// Minimum num in Arr
+int minArr(vector<int>&arr) {
+
+	// auto min = min_element(arr.begin(), arr.end()); // using STL
+	// return *min;
+	int min = INT_MAX;
+	for(int i = 0; i < arr.size(); i++) {
+		if(arr[i]<min) {
+			min = arr[i];
+		}
+	}
+	return min;
+}
+
+int main() {
+    vector<int>arr = {211,675623,43,-3345,0,36,7,55,8};
+	cout<<minArr(arr);
+
+	return 0;
+}
+
+
+
+
+

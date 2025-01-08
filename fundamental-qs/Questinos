@@ -1,0 +1,60 @@
+1. Swapping Two Numbers ✅
+Hint: Use arithmetic operations like addition and subtraction or XOR for swapping.
+
+2. Sorting an Array ✅
+Hint: Compare adjacent elements and swap them if they are in the wrong order.
+
+3. Palindrome Check ✅
+Hint: Reverse the string and compare it with the original.
+
+4. Factorial Calculation  ✅
+Hint: Recursively multiply the number with the factorial of the previous number.
+
+5. Fibonacci Sequence
+Hint: Use a loop or recursion to calculate the sum of the two preceding numbers.
+
+6. Reverse a String   ✅
+Hint: Use slicing (`[::-1]`) or iterate from the end of the string.
+
+7. Find Maximum and Minimum in Array  ✅
+Hint: Iterate through the array while keeping track of the maximum and minimum values.
+
+8. Check Prime Number  ✅
+Hint: Check divisibility from 2 to the square root of the number.
+
+9. Merge Two Sorted Arrays   ✅
+Hint: Use two pointers to merge elements in sorted order.
+
+10. Sum of Digits   ✅
+Hint: Use modulo (`%`) and integer division (`//`) to extract and sum digits.
+
+11. Anagram Check   ✅
+Hint: Sort both strings and compare them.
+
+12. Remove Duplicates from Array
+Hint: Use a set to store unique elements.
+
+13. Count Vowels and Consonants
+Hint: Use a loop to count characters that are vowels or consonants.
+
+14. Matrix Transpose
+Hint: Swap rows and columns using nested loops or array slicing.
+
+15. GCD and LCM
+Hint: Use the Euclidean algorithm for GCD and `GCD * LCM = num1 * num2` for LCM.
+
+16. Binary Search
+Hint: Divide the array in half and check the middle element.
+
+17. Find Second Largest Element
+Hint: Track the largest and second-largest elements during iteration.
+
+18. Armstrong Number
+Hint: Sum the cubes of the digits and compare with the original number.
+
+19. Print All Permutations
+Hint: Use recursion to generate permutations by swapping characters.
+
+20. Find Intersection of Two Arrays
+Hint: Use a set to find common elements between two arrays.
+.

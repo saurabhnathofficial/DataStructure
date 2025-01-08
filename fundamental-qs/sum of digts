@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+
+int sumOfDigits(int i){
+    int sum = 0;
+    while(i > 0){
+        sum += i%10;
+        i /= 10;
+    }
+    return sum;
+}
+int main(){
+    
+    
+    cout<<sumOfDigits(3434);
+    return 0;
+}

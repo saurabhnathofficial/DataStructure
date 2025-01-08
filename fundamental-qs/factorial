@@ -1,0 +1,29 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <algorithm>
+
+
+using namespace std;
+
+// Calculate factorial
+
+int factorial(int i) {
+	int result = 1;
+	while(i>0) {
+		result *= i;
+		i--;
+	}
+	return result;
+}
+
+
+int main()
+{
+    int i;
+    cout<< "enter a number : ";
+    cin>>i;
+    
+    cout<<factorial(i);
+	return 0;
+}
